@@ -58,7 +58,7 @@ public class Coin : MonoBehaviour
                 a game object is destroyed so is everything attached to it, such as scripts.
                 */
                 Destroy(gameManager);
-                GameObject [] fireworksSystem = GameObject.FindGameObjectsWithTag('Fireworks');
+                GameObject [] fireworksSystem = GameObject.FindGameObjectsWithTag("Fireworks");
                 foreach (GameObject firework in fireworksSystem){
                     firework.GetComponent<ParticleSystem>().Play();
                 }
