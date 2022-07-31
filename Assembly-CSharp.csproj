@@ -46,6 +46,7 @@
      <Compile Include="Assets\MainScene\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\MainScene\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\MainScene\Scripts\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\MainScene\TestScripts\varScript.cs" />
      <None Include="Assets\MainScene\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

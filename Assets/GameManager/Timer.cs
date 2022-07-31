@@ -40,7 +40,7 @@ public class Timer : MonoBehaviour
             Coin.coinsCounter = 0;
             SceneManager.LoadScene("MainScene");
         }else{
-            Debug.Log("timer is set to 0");
+            //Debug.Log("timer is set to 0");
         }
         
         

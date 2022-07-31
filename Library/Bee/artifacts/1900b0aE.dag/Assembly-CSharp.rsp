@@ -361,6 +361,7 @@
 "Assets/MainScene/Scripts/ParticleSceneControls.cs"
 "Assets/MainScene/Scripts/PlaceTargetWithMouse.cs"
 "Assets/MainScene/Scripts/SlowMoButton.cs"
+"Assets/MainScene/TestScripts/VarScript.cs"
 -langversion:9.0
 
 /deterministic
