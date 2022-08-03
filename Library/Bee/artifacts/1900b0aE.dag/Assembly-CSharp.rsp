@@ -361,6 +361,10 @@
 "Assets/MainScene/Scripts/ParticleSceneControls.cs"
 "Assets/MainScene/Scripts/PlaceTargetWithMouse.cs"
 "Assets/MainScene/Scripts/SlowMoButton.cs"
+"Assets/MainScene/TestScripts/Dicts_or_HashMaps.cs"
+"Assets/MainScene/TestScripts/If.cs"
+"Assets/MainScene/TestScripts/List_and_Array.cs"
+"Assets/MainScene/TestScripts/Student.cs"
 "Assets/MainScene/TestScripts/VarScript.cs"
 -langversion:9.0
 

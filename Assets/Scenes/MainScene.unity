@@ -249,7 +249,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19938939}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 19.221146, y: -21.505325, z: 148.707}
+  m_LocalPosition: {x: 110.499985, y: -4196.058, z: 95.0005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1702,8 +1702,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856282597}
-  m_LocalRotation: {x: 0.087172285, y: 0.89959055, z: 0.21045254, w: -0.37262255}
-  m_LocalPosition: {x: -202.32552, y: 41.92786, z: -27.325512}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -104.500015, y: -4147.398, z: 55.000504}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2610,6 +2610,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1681115656}
   - component: {fileID: 1681115655}
+  - component: {fileID: 1681115658}
+  - component: {fileID: 1681115657}
+  - component: {fileID: 1681115659}
+  - component: {fileID: 1681115660}
   m_Layer: 0
   m_Name: TestObj
   m_TagString: Untagged
@@ -2624,7 +2628,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681115654}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba003baee6c003843a292eefc40d4838, type: 3}
   m_Name: 
@@ -2646,6 +2650,69 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1681115657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681115654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05de4ef2e136f264294e5cb0555b3b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  studentName: Warren
+  studentLastName: Worthington III
+  studentAge: 27
+  studentHeight: 1.81
+--- !u!114 &1681115658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681115654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858c30c127f1275449cb13dad9611544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rainToday: 0
+--- !u!114 &1681115659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681115654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2248cc93e7b10f14cb3963e93dc0b020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SingersArray:
+  - Beyonce
+  - Mariah
+  - Rihanna
+  ActressArray:
+  - 
+  - 
+  - 
+  - 
+  Numbers: 
+--- !u!114 &1681115660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681115654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6b29ededa2e9e4499c41fca1228d7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1721701797
 GameObject:
   m_ObjectHideFlags: 0
