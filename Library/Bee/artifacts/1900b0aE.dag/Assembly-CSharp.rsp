@@ -364,7 +364,10 @@
 "Assets/MainScene/TestScripts/Dicts_or_HashMaps.cs"
 "Assets/MainScene/TestScripts/If.cs"
 "Assets/MainScene/TestScripts/List_and_Array.cs"
+"Assets/MainScene/TestScripts/Person.cs"
+"Assets/MainScene/TestScripts/PrimeNumbers.cs"
 "Assets/MainScene/TestScripts/Student.cs"
+"Assets/MainScene/TestScripts/Students.cs"
 "Assets/MainScene/TestScripts/VarScript.cs"
 -langversion:9.0
 
